@@ -1,13 +1,14 @@
 package day19;
 
 
+import java.util.PriorityQueue;
 import java.util.regex.Pattern;
 
 public class UserRegister {
     private static final String FIRST_NAME = "^[A-Z][a-z]{2,}$";
     private static final String LAST_NAME = "^[A-Z][a-z]{2,}$";
     private static final String EMAIL = "^[a-zA-Z0-9_-]+(?:\\.[a-zA-Z0-9_+-]+)*@[a-zA-Z0-9-]+(?:\\.[a-zA-Z0-9-]+)*$";
-    private static final String PHONE_NUMBER = "^[0-9]{2}[0-9]{10}";
+    private static final String PHONE_NUMBER ="^[0-9]{2}[0-9]{10}";
     private static final String PASSWORD = "(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#$%^&*()_-])[a-zA-Z0-9].{8,}$";
     static boolean isFirstNameValid, isLastNameValid, isMailValid, isNumberValid, isPasswordValid;
 
@@ -63,3 +64,4 @@ public class UserRegister {
         }
     }
 }
+
