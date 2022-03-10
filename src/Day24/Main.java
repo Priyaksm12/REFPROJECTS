@@ -2,6 +2,6 @@ package Day24;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Welcome to AddressBook program");
+        System.out.println("Welcome to AddressBook program Day24 program");
     }
 }
