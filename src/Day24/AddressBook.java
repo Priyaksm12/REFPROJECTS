@@ -281,7 +281,6 @@ public class AddressBook implements AddressBookInterface {
 
         String bookName = this.getAddressBookName();
         String fileName = bookName+".txt";
-
         StringBuffer addressBookBuffer = new StringBuffer();
         contactList.values().stream().forEach(contact -> {
             String personDataString = contact.toString().concat("\n");
