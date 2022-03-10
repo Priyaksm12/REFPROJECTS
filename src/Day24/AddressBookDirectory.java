@@ -139,6 +139,7 @@ public class AddressBookDirectory {
     }
 
     public void countPeopleByRegion(HashMap<String, ArrayList<ContactInfo>> listToDisplay) {
+
         System.out.println("Enter the name of the region :");
         String regionName = scannerObject.next();
 
