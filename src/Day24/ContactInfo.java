@@ -42,7 +42,8 @@ public class ContactInfo {
         this.email = email;
     }
 
-    public void setAddress(Address address) {
+    public void setAddress(Address address)
+    {
         this.address = address;
     }
 

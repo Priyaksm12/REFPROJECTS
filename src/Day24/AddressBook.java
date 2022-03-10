@@ -232,8 +232,8 @@ public class AddressBook implements AddressBookInterface {
             System.out.println(person);
         }
         System.out.println("-----------------------------------------");
-    }
 
+    }
     public void printSortedList(List<ContactInfo> sortedContactList) {
         System.out.println("------ Sorted Address Book "+this.getAddressBookName()+" ------");
         Iterator iterator = sortedContactList.iterator();
@@ -243,7 +243,6 @@ public class AddressBook implements AddressBookInterface {
         }
         System.out.println("-----------------------------------------");
     }
-
     public void sortAddressBook(int sortingChoice) {
         List<ContactInfo> sortedContactList;
 
@@ -273,6 +272,7 @@ public class AddressBook implements AddressBookInterface {
                 printSortedList(sortedContactList);
                 break;
         }
+
     }
 
     public void writeToAddressBookFile() {
