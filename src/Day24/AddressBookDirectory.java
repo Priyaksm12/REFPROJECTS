@@ -151,6 +151,7 @@ public class AddressBookDirectory {
         System.out.println("Number of People residing in " + regionName+" are: "+countPeople+"\n");
 
     }
+
     public void displayDirectoryContents() {
 
         System.out.println("----- Contents of the Address Book Directory-----");

@@ -23,5 +23,6 @@ public interface AddressBookInterface {
     public void sortAddressBook(int sortingChoice);
 
     public void writeToAddressBookFile();
+
     public List<String> readDataFromFile();
 }

@@ -12,6 +12,7 @@ public class ContactInfo {
     public String getLastName() {
         return lastName;
     }
+
     public long getPhoneNumber() {
         return phoneNumber;
     }

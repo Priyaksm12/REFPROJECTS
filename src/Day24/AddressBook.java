@@ -1,5 +1,4 @@
 package Day24;
-
 import java.io.File;
 import java.io.IOException;
 import java.nio.file.Files;
@@ -281,6 +280,7 @@ public class AddressBook implements AddressBookInterface {
 
         String bookName = this.getAddressBookName();
         String fileName = bookName+".txt";
+
         StringBuffer addressBookBuffer = new StringBuffer();
         contactList.values().stream().forEach(contact -> {
             String personDataString = contact.toString().concat("\n");
