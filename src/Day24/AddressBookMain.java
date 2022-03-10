@@ -1,6 +1,5 @@
 package Day24;
 
-
 import java.util.Scanner;
 
 public class AddressBookMain {

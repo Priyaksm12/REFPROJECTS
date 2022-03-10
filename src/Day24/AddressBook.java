@@ -232,7 +232,6 @@ public class AddressBook implements AddressBookInterface {
             System.out.println(person);
         }
         System.out.println("-----------------------------------------");
-
     }
 
     public void printSortedList(List<ContactInfo> sortedContactList) {
@@ -274,7 +273,6 @@ public class AddressBook implements AddressBookInterface {
                 printSortedList(sortedContactList);
                 break;
         }
-
     }
 
     public void writeToAddressBookFile() {

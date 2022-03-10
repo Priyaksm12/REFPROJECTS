@@ -5,7 +5,6 @@ import java.util.List;
 public interface AddressBookInterface {
 
     public void operation();
-
     public void addContact();
 
     public void displayContents();
